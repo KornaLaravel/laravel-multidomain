@@ -40,7 +40,7 @@ use Symfony\Component\Process\Process;
  *
  */
 
-class HttpTestCase extends \Orchestra\Testbench\BrowserKit\TestCase
+class HttpTest extends \Orchestra\Testbench\BrowserKit\TestCase
 {
 
     protected $serverName;
@@ -213,7 +213,7 @@ class HttpTestCase extends \Orchestra\Testbench\BrowserKit\TestCase
      * set when the test has been launched.
      *
      */
-    public function testWelcomePage()
+    public function testWelcomePage() : void
     {
 
         $this->serverName = Arr::get($_SERVER, 'SERVER_NAME');

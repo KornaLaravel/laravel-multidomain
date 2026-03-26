@@ -31,7 +31,7 @@ use Symfony\Component\Process\Process;
  *
  */
 
-class HttpSubfolderTestCase extends HttpTestCase
+class HttpSubfolderTest extends HttpTest
 {
 
     protected $serverName;
