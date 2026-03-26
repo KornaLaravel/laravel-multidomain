@@ -5,6 +5,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 
+## 12.2 - 2026-03-26
+### Changed
+- Bugfix (removed empty elements from .env files array)
+
 ## 12.1 - 2025-04-15
 ### Changed
 - Bugfix (cache correctly included in trait)
@@ -413,7 +417,8 @@ Laravel release starting from 5.5 and as pointed out in the docs)
 ### Added
 - Initial version for Laravel 5.5.
 
-[Unreleased]: https://github.com/gecche/laravel-multidomain/compare/v12.1...HEAD
+[Unreleased]: https://github.com/gecche/laravel-multidomain/compare/v12.2...HEAD
+[12.2]: https://github.com/gecche/laravel-multidomain/compare/v12.2...v12.1
 [12.1]: https://github.com/gecche/laravel-multidomain/compare/v12.1...v12.0
 [12.0]: https://github.com/gecche/laravel-multidomain/compare/v12.0...v11.2
 [11.2]: https://github.com/gecche/laravel-multidomain/compare/v11.2...v11.1
