@@ -11,7 +11,7 @@ namespace Gecche\Multidomain\Tests;
 use Gecche\Multidomain\Foundation\Application;
 use Orchestra\Testbench\Concerns\CreatesApplication;
 
-class CommandsSubfolderTestCase extends CommandsTestCase
+class CommandsSubfolderTest extends CommandsTest
 {
 
     protected $envPath = 'envs';

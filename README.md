@@ -1,4 +1,5 @@
 [![License](http://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](https://tldrlegal.com/license/mit-license)
+[![Laravel](https://img.shields.io/badge/Laravel-13.x-orange.svg?style=flat-square)](http://laravel.com)
 [![Laravel](https://img.shields.io/badge/Laravel-12.x-orange.svg?style=flat-square)](http://laravel.com)
 [![Laravel](https://img.shields.io/badge/Laravel-11.x-orange.svg?style=flat-square)](http://laravel.com)
 [![Laravel](https://img.shields.io/badge/Laravel-10.x-orange.svg?style=flat-square)](http://laravel.com)
@@ -28,6 +29,7 @@ for each such customer.
 
  Laravel   | Multidomain
 :----------|:-----------
+ 13.x      | 13.x
  12.x      | 12.x
  11.x      | 11.x
  10.x      | 10.x
@@ -66,7 +68,7 @@ Add gecche/laravel-multidomain as a requirement to composer.json:
 ```javascript
 {
     "require": {
-        "gecche/laravel-multidomain": "12.*"
+        "gecche/laravel-multidomain": "13.*"
     }
 }
 ```

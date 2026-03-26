@@ -5,6 +5,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 
+## 13.0 - 2026-03-26
+### Changed
+- `composer.json` updated for Laravel 13.x
+- Updated tests for PHPUnit 12 with coverage config
+
 ## 12.2 - 2026-03-26
 ### Changed
 - Bugfix (removed empty elements from .env files array)
@@ -417,7 +422,8 @@ Laravel release starting from 5.5 and as pointed out in the docs)
 ### Added
 - Initial version for Laravel 5.5.
 
-[Unreleased]: https://github.com/gecche/laravel-multidomain/compare/v12.2...HEAD
+[Unreleased]: https://github.com/gecche/laravel-multidomain/compare/v13.0...HEAD
+[13.0]: https://github.com/gecche/laravel-multidomain/compare/v13.0...v12.2
 [12.2]: https://github.com/gecche/laravel-multidomain/compare/v12.2...v12.1
 [12.1]: https://github.com/gecche/laravel-multidomain/compare/v12.1...v12.0
 [12.0]: https://github.com/gecche/laravel-multidomain/compare/v12.0...v11.2

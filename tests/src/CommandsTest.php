@@ -23,7 +23,7 @@ use Illuminate\Support\Facades\Config;
 use Orchestra\Testbench\Concerns\CreatesApplication;
 
 
-class CommandsTestCase extends \Orchestra\Testbench\TestCase
+class CommandsTest extends \Orchestra\Testbench\TestCase
 {
 
 
