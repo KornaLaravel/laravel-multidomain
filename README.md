@@ -251,10 +251,6 @@ domain includes the merged configuration as well:
 php artisan config:cache --domain=site1.com
 ```
 
-During HTTP requests, the domain storage path is also applied at bootstrap time when
-the corresponding domain storage folder exists, so logs and other storage-based services
-use the domain-specific storage directory consistently.
-
 ### Further information
 At run-time, the current HTTP domain is maintained in the laravel container 
 and can be accessed by its `domain()` method added by this package.

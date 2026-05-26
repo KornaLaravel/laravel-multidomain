@@ -2,7 +2,6 @@
 
 namespace Gecche\Multidomain\Tests\App\Console;
 
-use Gecche\Multidomain\Tests\App\Console\Commands\ConfigNameCommand;
 use Gecche\Multidomain\Tests\App\Console\Commands\NameCommand;
 use Gecche\Multidomain\Tests\App\Console\Commands\QueuePushCommand;
 use Gecche\Multidomain\Foundation\Console\Kernel as ConsoleKernel;
@@ -17,7 +16,6 @@ class Kernel extends ConsoleKernel
      */
     protected $commands = [
         NameCommand::class,
-        ConfigNameCommand::class,
         QueuePushCommand::class,
         //
     ];

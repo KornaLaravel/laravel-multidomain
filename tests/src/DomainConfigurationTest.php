@@ -158,20 +158,6 @@ class DomainConfigurationTest extends TestCase
         $this->artisan('config:clear');
     }
 
-    public function testUseStoragePathUsesDomainStorageDirectory(): void
-    {
-        $_SERVER['SERVER_NAME'] = $this->site;
-
-        $this->artisan('domain:add', ['domain' => $this->site]);
-
-        $this->refreshApplication();
-
-        $expectedStoragePath = base_path('storage') . DIRECTORY_SEPARATOR . domain_sanitized($this->site);
-
-        $this->assertEquals($expectedStoragePath, storage_path());
-        $this->assertEquals($expectedStoragePath, app()->storagePath());
-    }
-
     public function testMissingDomainConfigFileDoesNotBreakBootstrap(): void
     {
         $_SERVER['SERVER_NAME'] = $this->site;
